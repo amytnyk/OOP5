@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FlowerBucket {
-    List<FlowerPack> packs = new ArrayList<>();
+    private final List<FlowerPack> packs = new ArrayList<>();
 
     public void add(FlowerPack flowerPack) {
         packs.add(flowerPack);
